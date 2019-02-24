@@ -19,6 +19,31 @@
         android:layout_height="wrap_content"
         android:hint="Aquí va"
         android:id="@+id/etDatos"/>
+
+    <EditText
+        android:id="@+id/etid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="ingrese ID" />
+
+    <TextView
+        android:id="@+id/txtviewid"
+        android:layout_width="match_parent"
+        android:layout_height="44dp" />
+
+    <TextView
+        android:id="@+id/txtviewdato"
+        android:layout_width="match_parent"
+        android:layout_height="34dp" />
+
+    <Button
+        android:id="@+id/mostrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="buscar" />
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -1,0 +1,5 @@
+Errores presentados:
+
+-Al trabajar en una plataforma para el desarrollo del proyecto se presentó un problema con la direccion IP del servidor usado (En este caso el de las computadoras).
+-Probando el web service con las adaptaciones de parte de la aplicación "Android Studio" surgió un problema de trafico de datos. Este problema se solucionó con la implementación de un codigo en la rama Manifiest.xml para versiones de android mayores a la 7.0.0 (codigo "android:usesCleartextTraffic="true"").
+-Por usar un diferente web service, se creó una database con el objetivo de funcionar igual en los diferentes sevicios, al crear la database hubo el invonveniente de no hacerla con los mismos parametros, dando error de conexión. 
